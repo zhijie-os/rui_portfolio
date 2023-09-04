@@ -114,13 +114,11 @@ export default function Home() {
         </div>
       </Head>
 
-      <main className="px-60 pb-16">
+      <Divider variant="middle" className="py-10 mx-24" />
 
-        <Divider variant="middle" className="p-4" />
-
-
+      <main className="px-64 py-14">
         {/* education */}
-        <div className="text-justify text-xl py-8 space-x-1.5 leading-loose">
+        <div className="text-justify text-xl py-8 space-x-1.25 leading-loose">
           In April 2023, I reveived my&nbsp;
           <span className="underline decoration-lime-400 font-bold">
             Bachelor of Engineering
@@ -133,7 +131,7 @@ export default function Home() {
         </div>
 
         {/* skills */}
-        <div className="text-justify text-xl mb-8 space-x-1.5 leading-loose">
+        <div className="text-justify text-xl mb-8 space-x-1.25 leading-loose">
           When I was an undergraduate student, I took a lot of courses and got
           skills and knowledge about&nbsp;
           <span className="underline decoration-sky-400 font-bold">
@@ -166,7 +164,7 @@ export default function Home() {
         </div>
 
         {/* 编瞎话 */}
-        <div className="text-justify text-xl mb-8 space-x-1.5 leading-loose">
+        <div className="text-justify text-xl mb-8 space-x-1.25 leading-loose">
           As a master's student in Electrical and Computer Engineering at the University of Toronto,
           I have a solid foundation in computer science and engineering principles.
           I am committed to learning and mastering the latest technologies,
@@ -177,7 +175,7 @@ export default function Home() {
         </div>
 
         {/* 展望未来+编瞎话 */}
-        <div className="text-justify text-xl mb-8 space-x-1.5 leading-loose">
+        <div className="text-justify text-xl mb-8 space-x-1.25 leading-loose">
           I am genuinely passionate about web development, and I thrive in a team environment.
           I enjoy tackling complex challenges and finding innovative solutions.
           I am committed to delivering high-quality code and constantly learning,
@@ -185,14 +183,14 @@ export default function Home() {
         </div>
       </main>
 
-      <Timeline position="alternate" className="pb-16">
+      <Timeline position="alternate" className="pb-16 pt-10">
         <TimelineItem>
           <TimelineSeparator>
             <TimelineDot variant="outlined" />
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
-            <div className="text-justify text-stone-500 text-lg pr-60 pb-10 leading-loose">
+            <div className="text-justify text-stone-500 text-lg pr-[120px] pb-10">
               I entered the world on August 7, 2001, in Jiamusi,
               a city situated in the Heilongjiang Province of China.
               Prior to my birth, my parents carefully perused the dictionary to select the name "Rui" for my,
@@ -206,7 +204,7 @@ export default function Home() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
-            <div className="text-justify text-stone-500 text-lg pl-60 pb-10 leading-loose">
+            <div className="text-justify text-stone-500 text-lg pl-[120px] pb-10">
               My family moved to Tianjin in 2014, and in 2015, I began my high school education at Tianjin Yangcun No.1 High School.
               Later, in order to be able to study abroad as an undergraduate, I transferred to Tianjin Yinghua High School International Department in 2016.
               In 2018, I was admitted to the University of Calgary, and in 2019, I began my undergraduate studies in Software Engineering.
@@ -219,7 +217,7 @@ export default function Home() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
-            <div className="text-justify text-stone-500 text-lg pr-60 pb-10 leading-loose">
+            <div className="text-justify text-stone-500 text-lg pr-[120px] pb-10">
               In 2023, I was graduated from the University of Calgary with a Bachelor of Engineering degree in Software Engineering.
               In the same year, I was admitted to the University of Toronto to pursue a Master of Engineering degree in Electrical and Computer Engineering.
             </div>
@@ -231,7 +229,7 @@ export default function Home() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
-            <div className="text-right text-stone-500 text-lg pl-60 pb-10 leading-loose">
+            <div className="text-right text-stone-500 text-lg pl-[120px] pb-10">
               Life is like a box of chocolates, you never know what you're gonna get.<br />
               I'm embarking on a new journey in life, wishing for smooth sailing and a bright future ahead.
             </div>
