@@ -6,6 +6,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf";
 import EmailIcon from '@mui/icons-material/Email';
+import Head from "next/head";
 import * as React from 'react';
 import Divider from '@mui/material/Divider';
 
@@ -24,12 +25,14 @@ import Divider from '@mui/material/Divider';
 
 const inter = Inter({ subsets: ["latin"] });
 
+
 export default function Home() {
+
   return (
-    <body>
-      <header>
+    <>
+      <Head>
         {/* header */}
-        <div className="flex flex-col justify-center items-center h-[1350px]
+        <div className="flex flex-col justify-center items-center h-[1400px]
         bg-fixed bg-contain" style={{ backgroundImage: "url(/mainbg.JPG)" }}>
           <img
             src="/profile.jpg"
@@ -43,6 +46,7 @@ export default function Home() {
             <span className="text-xl/5 text-white font-serif italic font-thin">----&nbsp;&nbsp;&nbsp;Forrest Gump</span>
           </div>
         </div>
+
         {/* navigation */}
         <div className="flex justify-center space-x-10 p-12">
           <Link
@@ -102,11 +106,13 @@ export default function Home() {
           </span>
           .
         </div>
-      </header>
-
-      <Divider variant="middle" className="p-4" />
+      </Head>
 
       <main className="px-60 pb-16">
+
+        <Divider variant="middle" className="p-4" />
+
+
         {/* education */}
         <div className="text-justify text-xl py-8 space-x-1.5 leading-loose">
           In April 2023, I reveived my&nbsp;
@@ -172,7 +178,6 @@ export default function Home() {
           which makes me very suitable for this position.
         </div>
       </main>
-    </body>
-
+    </>
   );
 }
