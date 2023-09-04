@@ -185,7 +185,7 @@ export default function Home() {
         </div>
       </main>
 
-      <Timeline position="alternate">
+      <Timeline position="alternate" className="pb-16">
         <TimelineItem>
           <TimelineSeparator>
             <TimelineDot variant="outlined" />
@@ -228,16 +228,18 @@ export default function Home() {
         <TimelineItem>
           <TimelineSeparator>
             <TimelineDot variant="outlined" />
+            <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
             <div className="text-right text-stone-500 text-lg pl-60 pb-10 leading-loose">
               Life is like a box of chocolates, you never know what you're gonna get.<br />
-              I'm embarking on a new journey in life, wishing for smooth sailing and a bright future ahead...
+              I'm embarking on a new journey in life, wishing for smooth sailing and a bright future ahead.
             </div>
           </TimelineContent>
         </TimelineItem>
       </Timeline>
 
+      
     </>
   );
 }
