@@ -38,42 +38,42 @@ export default function Home() {
     <>
       <Head>
         {/* header */}
-        <div className="flex flex-col justify-center items-center h-[1400px]
+        <div className="flex flex-col justify-center items-center lg:h-[1400px] sm:h-[400px] h-[225px] w-[100%]
         bg-fixed bg-contain" style={{ backgroundImage: "url(/mainbg.JPG)" }}>
           <img
             src="/profile.jpg"
             alt="Image 1"
-            className="rounded-full w-32 h-32 border-4 border-white"
+            className="rounded-full lg:w-32 lg:h-32 sm:w-24 sm:h-24 h-16 w-16 border-4 border-white"
             width="50"
             height="50"
           />
-          <div className="text-center text-4xl text-white font-serif my-32 leading-loose px-16 tracking-wide">
-            "Life was like a box of chocolates, you never know what you're gonna get."<br />
-            <span className="text-xl/5 text-white font-serif italic font-thin">----&nbsp;&nbsp;&nbsp;Forrest Gump</span>
+          <div className="text-center lg:text-4xl sm:text-2xl text-white font-serif lg:my-32 sm:my-10 my-2 leading-loose lg:px-16 sm:px-8 px-4 tracking-wide">
+            "Life was like a box of chocolates, you never know what you're gonna get."<br/>
+            <span className="lg:text-xl/5 sm:text-lg text-white font-serif italic font-thin">----&nbsp;&nbsp;&nbsp;Forrest Gump</span>
           </div>
         </div>
 
         {/* navigation */}
-        <div className="flex justify-center space-x-10 p-12">
+        <div className="flex justify-center lg:space-x-10 sm:space-x-10 space-x-4 p-12">
           <Link
             href="https://github.com/LAREINA-JO"
             className="flex flex-col items-center"
           >
-            <GitHubIcon className="scale-[2] hover:scale-150 ease-in duration-700"></GitHubIcon>
+            <GitHubIcon className="lg:scale-[2] lg:hover:scale-150 sm:scale-[2] sm:hover:scale-150 scale-[1] ease-in duration-700"></GitHubIcon>
             <br />GitHub
           </Link>
           <Link
             href="https://www.linkedin.com/in/rui-guan-9079b5229/"
             className="flex flex-col items-center"
           >
-            <LinkedInIcon className="scale-[2] hover:scale-150 ease-in duration-700"></LinkedInIcon>
+            <LinkedInIcon className="lg:scale-[2] lg:hover:scale-150 sm:scale-[2] sm:hover:scale-150 scale-[1] ease-in duration-700"></LinkedInIcon>
             <br />LinkedIn
           </Link>
           <Link
             href="https://www.instagram.com/lalalala_lareina/"
             className="flex flex-col items-center"
           >
-            <InstagramIcon className="scale-[2] hover:scale-150 ease-in duration-700"></InstagramIcon>
+            <InstagramIcon className="lg:scale-[2] lg:hover:scale-150 sm:scale-[2] sm:hover:scale-150 scale-[1] ease-in duration-700"></InstagramIcon>
             <br />Instagram
           </Link>
           <a
@@ -82,7 +82,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="flex flex-col items-center"
           >
-            <EmailIcon className="scale-[2] hover:scale-150 ease-in duration-700"></EmailIcon>
+            <EmailIcon className="lg:scale-[2] lg:hover:scale-150 sm:scale-[2] sm:hover:scale-150 scale-[1] ease-in duration-700"></EmailIcon>
             <br />Email
           </a>
           <a
@@ -91,17 +91,17 @@ export default function Home() {
             rel="noopener noreferrer"
             className="flex flex-col items-center"
           >
-            <PictureAsPdfIcon className="scale-[2] hover:scale-150 ease-in duration-700"></PictureAsPdfIcon>
+            <PictureAsPdfIcon className="lg:scale-[2] lg:hover:scale-150 sm:scale-[2] sm:hover:scale-150 scale-[1] ease-in duration-700"></PictureAsPdfIcon>
             <br />Resume
           </a>
         </div>
 
         {/* short description */}
-        <div className="text-center text-3xl px-16 font-serif font-bold space-x-1.5 leading-loose">I,&nbsp;
+        <div className="text-center lg:text-3xl lg:px-16 px-6 text-lg font-serif font-bold space-x-1.5 leading-loose">I,&nbsp;
           <span className="underline decoration-slate-400">
             Rui (Lareina) Guan
           </span>
-          , who is currently pursuing a&nbsp;
+          , am currently pursuing a&nbsp;
           <span className="underline decoration-lime-400">
             Master of Engineering
           </span>
@@ -114,11 +114,11 @@ export default function Home() {
         </div>
       </Head>
 
-      <Divider variant="middle" className="py-10 mx-24" />
+      <Divider variant="middle" className="lg:py-10 lg:mx-24"/>
 
-      <main className="px-64 py-14">
+      <main className="lg:px-64 px-8 py-14 sm:px-32">
         {/* education */}
-        <div className="text-justify text-xl py-8 space-x-1.25 leading-loose">
+        <div className="text-justify lg:text-xl lg:py-8 space-x-1.25 leading-loose">
           In April 2023, I reveived my&nbsp;
           <span className="underline decoration-lime-400 font-bold">
             Bachelor of Engineering
@@ -131,7 +131,7 @@ export default function Home() {
         </div>
 
         {/* skills */}
-        <div className="text-justify text-xl mb-8 space-x-1.25 leading-loose">
+        <div className="text-justify lg:text-xl lg:mb-8 space-x-1.25 leading-loose">
           When I was an undergraduate student, I took a lot of courses and got
           skills and knowledge about&nbsp;
           <span className="underline decoration-sky-400 font-bold">
@@ -141,7 +141,7 @@ export default function Home() {
           <span className="underline decoration-sky-400 font-bold">
             Web Development
           </span>
-          &nbsp;such as
+          &nbsp;such as&nbsp;
 
           {/* list of skills */}
           <span className="text-violet-800">C/C++</span>,&nbsp;
@@ -164,7 +164,7 @@ export default function Home() {
         </div>
 
         {/* 编瞎话 */}
-        <div className="text-justify text-xl mb-8 space-x-1.25 leading-loose">
+        <div className="text-justify lg:text-xl lg:mb-8 space-x-1.25 leading-loose">
           As a master's student in Electrical and Computer Engineering at the University of Toronto,
           I have a solid foundation in computer science and engineering principles.
           I am committed to learning and mastering the latest technologies,
@@ -175,7 +175,7 @@ export default function Home() {
         </div>
 
         {/* 展望未来+编瞎话 */}
-        <div className="text-justify text-xl mb-8 space-x-1.25 leading-loose">
+        <div className="text-justify lg:text-xl lg:mb-8 space-x-1.25 leading-loose">
           I am genuinely passionate about web development, and I thrive in a team environment.
           I enjoy tackling complex challenges and finding innovative solutions.
           I am committed to delivering high-quality code and constantly learning,
@@ -183,14 +183,15 @@ export default function Home() {
         </div>
       </main>
 
-      <Timeline position="alternate" className="pb-16 pt-10">
+      {/* timeline */}
+      <Timeline position="alternate" className="pb-16 lg:pt-10">
         <TimelineItem>
           <TimelineSeparator>
             <TimelineDot variant="outlined" />
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
-            <div className="text-justify text-stone-500 text-lg pr-[120px] pb-10">
+            <div className="text-justify text-stone-500 lg:text-lg lg:pr-[120px] lg:pb-10 sm:pr-[60px] text-xs">
               I entered the world on August 7, 2001, in Jiamusi,
               a city situated in the Heilongjiang Province of China.
               Prior to my birth, my parents carefully perused the dictionary to select the name "Rui" for my,
@@ -204,7 +205,7 @@ export default function Home() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
-            <div className="text-justify text-stone-500 text-lg pl-[120px] pb-10">
+            <div className="text-justify text-stone-500 lg:text-lg lg:pl-[120px] lg:pb-10 sm:pl-[60px] text-xs">
               My family moved to Tianjin in 2014, and in 2015, I began my high school education at Tianjin Yangcun No.1 High School.
               Later, in order to be able to study abroad as an undergraduate, I transferred to Tianjin Yinghua High School International Department in 2016.
               In 2018, I was admitted to the University of Calgary, and in 2019, I began my undergraduate studies in Software Engineering.
@@ -217,7 +218,7 @@ export default function Home() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
-            <div className="text-justify text-stone-500 text-lg pr-[120px] pb-10">
+            <div className="text-justify text-stone-500 lg:text-lg lg:pr-[120px] lg:pb-10 sm:pr-[60px] text-xs">
               In 2023, I was graduated from the University of Calgary with a Bachelor of Engineering degree in Software Engineering.
               In the same year, I was admitted to the University of Toronto to pursue a Master of Engineering degree in Electrical and Computer Engineering.
             </div>
@@ -229,7 +230,7 @@ export default function Home() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
-            <div className="text-right text-stone-500 text-lg pl-[120px] pb-10">
+            <div className="text-right text-stone-500 lg:text-lg lg:pl-[120px] lg:pb-10 sm:pl-[60px] text-xs">
               Life is like a box of chocolates, you never know what you're gonna get.<br />
               I'm embarking on a new journey in life, wishing for smooth sailing and a bright future ahead.
             </div>
