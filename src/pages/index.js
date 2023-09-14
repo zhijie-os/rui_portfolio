@@ -45,13 +45,15 @@ export default function Home() {
 
   return (
     <>
+      <title>Rui(Lareina) Guan | University of Toronto</title>
+
       {/* header */}
       <div className="flex flex-col justify-center items-center lg:h-[1400px] sm:h-[400px] h-[225px] w-[100%]
         bg-fixed bg-contain" style={{ backgroundImage: "url(/../mainbg.jpg)" }}>
         <img
           src="/profile1.jpg"
           alt="Profile 1"
-          className="rounded-full lg:w-32 lg:h-32 sm:w-24 sm:h-24 h-16 w-16 border-4 border-white"
+          className="rounded-full lg:w-32 lg:h-32 sm:w-24 sm:h-24 h-16 w-16 lg:border-4 sm:border-4 border-2 border-white"
           width="50"
           height="50"
         />
@@ -60,6 +62,7 @@ export default function Home() {
           <Link href="/">HOME</Link>
           <Link href="/blog">BLOG</Link>
           <Link href="/personal">MY LIFE</Link>
+          <Link href="/calendar">CALENDAR</Link>
         </div>
 
         <div className="text-center lg:text-4xl sm:text-2xl text-sm text-white font-serif lg:my-32 sm:my-10 my-2 lg:leading-loose sm:leading-loose lg:px-16 sm:px-8 px-4 tracking-wide">
@@ -127,7 +130,9 @@ export default function Home() {
           University of Toronto
         </span>
         .
+
       </div>
+      <br />
       <Divider variant="middle" className="lg:py-10 lg:mx-24" />
 
       <main className="lg:px-64 px-8 py-14 sm:px-32">
@@ -142,8 +147,9 @@ export default function Home() {
             University of Calgary
           </span>
           &nbsp;with distinct.
-        </div>
 
+        </div>
+        <br />
         {/* skills */}
         <div className="text-justify lg:text-xl lg:mb-8 space-x-1.25 leading-loose">
           When I was an undergraduate student, I took a lot of courses and got
@@ -163,7 +169,7 @@ export default function Home() {
           <span className="text-violet-800">HTML</span>,&nbsp;
           <span className="text-violet-800">CSS</span>,&nbsp;
           <span className="text-violet-800">JavaScript</span>,&nbsp;
-          <span className="text-violet-800">React</span>,<br/>
+          <span className="text-violet-800">React</span>,<br />
           <span className="text-violet-800">Node.js</span>,&nbsp;
           <span className="text-violet-800">MySQL</span>, etc.
           Therefore, I have a strong interest in&nbsp;
@@ -175,8 +181,9 @@ export default function Home() {
             Web Development
           </span>
           &nbsp;and I have a strong desire to learn more about them.
-        </div>
 
+        </div>
+        <br />
         {/* 编瞎话 */}
         <div className="text-justify lg:text-xl lg:mb-8 space-x-1.25 leading-loose">
           As a master's student in Electrical and Computer Engineering at the University of Toronto,
@@ -186,15 +193,18 @@ export default function Home() {
           I have a BSc in Software Engineering from the University of Calgary,
           which gives me a strong background in software engineering.
           This academic journey has developed a solid understanding of software development principles and best practices.
-        </div>
 
+        </div>
+        <br />
         {/* 展望未来+编瞎话 */}
         <div className="text-justify lg:text-xl lg:mb-8 space-x-1.25 leading-loose">
           I am genuinely passionate about web development, and I thrive in a team environment.
           I enjoy tackling complex challenges and finding innovative solutions.
           I am committed to delivering high-quality code and constantly learning,
           which makes me very suitable for this position.
+
         </div>
+        <br />
       </main>
 
       {/* timeline */}
@@ -206,10 +216,9 @@ export default function Home() {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <div className="text-justify text-stone-500 lg:text-lg lg:pr-[120px] lg:pb-10 sm:pr-[60px] text-xs">
-                I entered the world on August 7, 2001, in Jiamusi,
-                a city situated in the Heilongjiang Province of China.
-                Prior to my birth, my parents carefully perused the dictionary to select the name "Rui" for me, which means of intelligence and wisdom.
+              <div className="text-left text-stone-500 lg:text-lg lg:pr-[120px] lg:pb-10 sm:pr-[60px] text-xs">
+                Born on August 7, 2001, in Jiamusi, Heilongjiang Province, China.<br />
+                Named as "Rui", which means of intelligence and wisdom.
               </div>
             </TimelineContent>
           </TimelineItem>
@@ -219,9 +228,9 @@ export default function Home() {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <div className="text-justify text-stone-500 lg:text-lg lg:pl-[120px] lg:pb-10 sm:pl-[60px] text-xs">
-                My family moved to Tianjin in 2014, and in 2015, I began my high school education at Tianjin Yangcun No.1 High School.
-                Later, I transferred to Tianjin Yinghua International School in 2016 and graduated in 2018.
+              <div className="text-right text-stone-500 lg:text-lg lg:pl-[120px] lg:pb-10 sm:pl-[60px] text-xs">
+                Began the high school education at Tianjin Yangcun No.1 High School in September, 2015.<br />
+                Transferred to Tianjin Yinghua International School in 2016 and graduated in June, 2018.
               </div>
             </TimelineContent>
           </TimelineItem>
@@ -231,9 +240,9 @@ export default function Home() {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <div className="text-justify text-stone-500 lg:text-lg lg:pr-[120px] lg:pb-10 sm:pr-[60px] text-xs">
-                In 2023, I got my Bachelor of Engineering degree in Software Engineering from the University of Calgary.
-                In the same year, I was admitted to the University of Toronto to pursue a Master of Engineering degree in Electrical and Computer Engineering.
+              <div className="text-left text-stone-500 lg:text-lg lg:pr-[120px] lg:pb-10 sm:pr-[60px] text-xs">
+                Got the Bachelor of Engineering degree in Software Engineering from the University of Calgary in April, 2023.<br />
+                Admitted to the University of Toronto to pursue a Master of Engineering degree in Electrical and Computer Engineering in the same year.
               </div>
             </TimelineContent>
           </TimelineItem>
@@ -245,7 +254,7 @@ export default function Home() {
             <TimelineContent>
               <div className="text-right text-stone-500 lg:text-lg lg:pl-[120px] lg:pb-10 sm:pl-[60px] text-xs">
                 Life is like a box of chocolates, you never know what you're gonna get.<br />
-                I'm embarking on a new journey in life, wishing for smooth sailing and a bright future ahead...
+                Still embarking on a new journey in life, wishing for smooth sailing and a bright future ahead...
               </div>
             </TimelineContent>
           </TimelineItem>
