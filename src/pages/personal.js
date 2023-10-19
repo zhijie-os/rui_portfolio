@@ -48,6 +48,7 @@ export default function Personal() {
 
   return (
     <>
+      <title>Lareina's Wonderful (but not so wonderful) Life</title>
       {/* header */}
       <div className="flex flex-col justify-center items-center lg:h-[500px] sm:h-[250px] h-[200px] bg-fixed bg-white">
         <img
@@ -99,6 +100,114 @@ export default function Personal() {
 {/* image list */ }
 const itemData = [
   {
+    img: '/lifeimages/94.jpg',
+    title: 'image94',
+  },{
+    img: '/lifeimages/93.jpg',
+    title: 'image93',
+  },{
+    img: '/lifeimages/92.jpg',
+    title: 'image92',
+  },{
+    img: '/lifeimages/91.jpg',
+    title: 'image91',
+  },{
+    img: '/lifeimages/90.jpg',
+    title: 'image90',
+  },{
+    img: '/lifeimages/89.jpg',
+    title: 'image89',
+  },{
+    img: '/lifeimages/88.jpg',
+    title: 'image88',
+  },{
+    img: '/lifeimages/87.jpg',
+    title: 'image87',
+  },{
+    img: '/lifeimages/86.jpg',
+    title: 'image86',
+  },{
+    img: '/lifeimages/85.jpg',
+    title: 'image85',
+  },{
+    img: '/lifeimages/84.jpg',
+    title: 'image84',
+  },{
+    img: '/lifeimages/83.jpg',
+    title: 'image83',
+  },{
+    img: '/lifeimages/82.jpg',
+    title: 'image82',
+  },{
+    img: '/lifeimages/81.jpg',
+    title: 'image81',
+  },{
+    img: '/lifeimages/80.jpg',
+    title: 'image80',
+  },{
+    img: '/lifeimages/79.jpg',
+    title: 'image79',
+  },{
+    img: '/lifeimages/78.jpg',
+    title: 'image78',
+  },{
+    img: '/lifeimages/77.jpg',
+    title: 'image77',
+  },{
+    img: '/lifeimages/76.jpg',
+    title: 'image76',
+  },{
+    img: '/lifeimages/75.jpg',
+    title: 'image75',
+  },{
+    img: '/lifeimages/74.jpg',
+    title: 'image74',
+  },{
+    img: '/lifeimages/73.jpg',
+    title: 'image73',
+  },{
+    img: '/lifeimages/72.jpg',
+    title: 'image72',
+  // },{
+  //   img: '/lifeimages/71.jpg',
+  //   title: 'image71',
+  },{
+    img: '/lifeimages/70.jpg',
+    title: 'image70',
+  },{
+    img: '/lifeimages/69.jpg',
+    title: 'image69',
+  },{
+    img: '/lifeimages/68.jpg',
+    title: 'image68',
+  },{
+    img: '/lifeimages/67.jpg',
+    title: 'image67',
+  },{
+    img: '/lifeimages/66.jpg',
+    title: 'image66',
+  },{
+    img: '/lifeimages/65.jpg',
+    title: 'image65',
+  },{
+    img: '/lifeimages/64.jpg',
+    title: 'image64',
+  },{
+    img: '/lifeimages/63.jpg',
+    title: 'image63',
+  },{
+    img: '/lifeimages/62.jpg',
+    title: 'image62',
+  },{
+    img: '/lifeimages/61.jpg',
+    title: 'image61',
+  },{
+    img: '/lifeimages/60.jpg',
+    title: 'image60',
+  },{
+    img: '/lifeimages/59.jpg',
+    title: 'image59',
+  },{
     img: '/lifeimages/58.jpg',
     title: 'image58',
   },{
@@ -128,9 +237,9 @@ const itemData = [
   }, {
     img: '/lifeimages/49.jpg',
     title: 'image49',
-  }, {
-    img: '/lifeimages/48.JPG',
-    title: 'image48',
+  // }, {
+  //   img: '/lifeimages/48.JPG',
+  //   title: 'image48',
   }, {
     img: '/lifeimages/47.JPEG',
     title: 'image47',

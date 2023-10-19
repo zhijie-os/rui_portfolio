@@ -90,12 +90,13 @@ export default function Blog() {
     // };
 
     // const pause = () => {
-    //     setPlaying(false);
+    //     setPlaying(false);   
     //     audioRef.current.pause();
     // };
 
     return (
         <>
+            <title>Lareina's Posts</title>
             {/* header */}
             <div className="flex flex-col justify-center items-center lg:h-[500px] sm:h-[250px] h-[200px] bg-fixed bg-white">
                 <img

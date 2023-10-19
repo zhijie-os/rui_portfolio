@@ -36,7 +36,8 @@ export default function Bloglist() {
 
   return (
     <>
-    {/* header */}
+      <title>Lareina's Blogs</title>
+      {/* header */}
       <div className="flex flex-col justify-center items-center lg:h-[500px] sm:h-[250px] h-[200px] bg-fixed bg-white">
         <img
           src="/profile2.jpg"
